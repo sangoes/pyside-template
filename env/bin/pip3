@@ -1,4 +1,4 @@
-#!/Users/leonechir/Desktop/work/temp/pyside-template/env/bin/python
+#!/Users/leonechir/Desktop/work/temp/pyside-template/env/bin/python3.9
 # -*- coding: utf-8 -*-
 import re
 import sys
