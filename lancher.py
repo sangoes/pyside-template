@@ -1,7 +1,7 @@
 import sys
 import random
 from PySide6 import QtCore, QtWidgets, QtGui
-from src.widgets.lancher_widget import LancherWidget
+from src.views.lancher_widget import LancherWidget
 
 # main
 if __name__ == '__main__':
