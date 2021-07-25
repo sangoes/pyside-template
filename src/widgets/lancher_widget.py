@@ -2,6 +2,7 @@ import sys
 import random
 from PySide6 import QtCore, QtWidgets, QtGui
 
+
 # lancher widget
 class LancherWidget(QtWidgets.QWidget):
     def __init__(self):
@@ -9,7 +10,8 @@ class LancherWidget(QtWidgets.QWidget):
 
         self.hello = ["hello", "你好"]
         self.button = QtWidgets.QPushButton("click me!")
-        self.text = QtWidgets.QLabel("Hello World", alignment=QtCore.Qt.AlignCenter)
+        self.text = QtWidgets.QLabel("Hello World",
+                                     alignment=QtCore.Qt.AlignCenter)
 
         self.layout = QtWidgets.QVBoxLayout(self)
         self.layout.addWidget(self.text)
